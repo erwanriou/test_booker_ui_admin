@@ -1,15 +1,24 @@
 {
   "name": "test_booker_ui_admin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "axios": "0.21.1",
+    "http-proxy-middleware": "2.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-scripts": "4.0.3"
+    "react-scripts": "4.0.3",
+    "react-select": "4.3.0",
+    "react-jss": "10.5.0",
+    "react-router-dom": "5.1.1",
+    "react-redux": "7.2.4",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "2.13.7",
+    "redux-thunk": "2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:env": "sh scripts/env.sh",
