@@ -1,0 +1,12 @@
+FROM node:15.0.1-alpine
+
+WORKDIR /app
+COPY package.json .
+
+RUN echo -e "registry=https://registry.npmjs.org \ntimeout=60000" > .npmrc
+RUN echo -e "REACT_APP_WEBKIT_URL=https://ik.imagekit.io/lqcpp5osrzf \nSKIP_PREFLIGHT_CHECK=true \nREACT_APP_LOCAL_DEV=true" > ".env"
+RUN npm install
+
+COPY . .
+
+CMD ["npm", "start"]

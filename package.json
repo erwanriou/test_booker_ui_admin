@@ -14,7 +14,8 @@
     "eject": "react-scripts eject",
     "install:env": "sh scripts/env.sh",
     "commit": "sh scripts/commit.sh",
-    "initiate": "sh scripts/initiate.sh"
+    "initiate": "sh scripts/initiate.sh",
+    "dev": "sh scripts/initiate-local.sh"
   },
   "eslintConfig": {
     "extends": [

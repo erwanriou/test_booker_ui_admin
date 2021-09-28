@@ -11,9 +11,8 @@ Before run the script initiate of this repository, please make sure to have node
 
 ## Scripts
 
-First time you launch the repository, you want to create all needed variables. Run the command below:
+First time you launch the repository, run the command below:
 
 ```sh
-npm run initiate
-
+npm run dev
 ```
