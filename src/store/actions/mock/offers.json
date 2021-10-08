@@ -1,0 +1,32 @@
+[
+  {
+    "product_name": "random book 1",
+    "discount_value": 14,
+    "date": "2021-10-08T08:53:47.144Z"
+  },
+  {
+    "product_name": "dragon ballZ",
+    "discount_value": 54,
+    "date": "2021-10-08T08:53:47.144Z"
+  },
+  {
+    "product_name": "The seeker",
+    "discount_value": 24,
+    "date": "2021-11-08T08:53:47.144Z"
+  },
+  {
+    "product_name": "hello world book",
+    "discount_value": 14,
+    "date": "2021-13-08T08:53:47.144Z"
+  },
+  {
+    "product_name": "java for newbies",
+    "discount_value": 100,
+    "date": "2021-14-08T08:53:47.144Z"
+  },
+  {
+    "product_name": "how asdasd",
+    "discount_value": 16,
+    "date": "2021-17-08T08:52:47.144Z"
+  }
+]

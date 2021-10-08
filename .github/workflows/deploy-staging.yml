@@ -3,7 +3,7 @@ name: deploy_booker_ui_admin_staging
 on:
   push:
     branches:
-      - develop
+      - master
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}

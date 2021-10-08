@@ -16,6 +16,10 @@ export const AUTH_LOGIN = "AUTH_LOGIN"
 export const AUTH_LOGOUT = "AUTH_LOGOUT"
 export const AUTH_REGISTER = "AUTH_REGISTER"
 
+// OFFER ACTIONS
+export const GET_OFFERS = "GET_OFFERS"
+export const GET_OFFER = "GET_OFFER"
+
 // GLOBAL ACTIONS
 export const MODAL_ON = "MODAL_ON"
 export const MODAL_OFF = "MODAL_OFF"
